@@ -39,7 +39,7 @@ BEGIN
 
 		PRINT '>> Inserting Data Into: bronze.crm_cust_info';
 		BULK INSERT bronze.crm_cust_info
-		FROM 'csv\file\location' 
+		FROM 'csv\file\location' -- add your csv file path
 		WITH(
 			FIRSTROW = 2,
 			FIELDTERMINATOR = ',',
@@ -55,7 +55,7 @@ BEGIN
 
 		PRINT '>> Inserting Data Into: bronze.crm_prd_info';
 		BULK INSERT bronze.crm_prd_info
-		FROM 'csv\file\location'
+		FROM 'csv\file\location' -- add your csv file path
 		WITH(
 			FIRSTROW = 2,
 			FIELDTERMINATOR = ',',
@@ -71,7 +71,7 @@ BEGIN
 
 		PRINT '>> Inserting Data Into: bronze.crm_sales_details';
 		BULK INSERT bronze.crm_sales_details
-		FROM 'csv\file\location'
+		FROM 'csv\file\location' -- add your csv file path
 		WITH(
 			FIRSTROW =2,
 			FIELDTERMINATOR =',',
@@ -91,7 +91,7 @@ BEGIN
 
 		PRINT '>> Inserting Data Into: bronze.erp_cust_az12';
 		BULK INSERT bronze.erp_cust_az12
-		FROM 'csv\file\location'
+		FROM 'csv\file\location' -- add your csv file path
 		WITH(
 			FIRSTROW = 2,
 			FIELDTERMINATOR = ',',
@@ -107,7 +107,7 @@ BEGIN
 
 		PRINT '>> Inserting Data Into: bronze.erp_loc_a101';
 		BULK INSERT bronze.erp_loc_a101
-		FROM 'csv\file\location'
+		FROM 'csv\file\location' -- add your csv file path
 		WITH(
 			FIRSTROW = 2,
 			FIELDTERMINATOR = ',',
@@ -123,7 +123,7 @@ BEGIN
 
 		PRINT '>> Inserting Data Into: bronze.erp_px_cat_g1v2';
 		BULK INSERT bronze.erp_px_cat_g1v2
-		FROM 'csv\file\location'
+		FROM 'csv\file\location' -- add your csv file path
 		WITH(
 			FIRSTROW = 2,
 			FIELDTERMINATOR = ',',
