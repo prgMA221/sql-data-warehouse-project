@@ -38,7 +38,7 @@ WHERE cst_key != TRIM(cst_key);
 
 --Data Standardization & Consistence
 SELECT DISTINCT
-  cst_martial_status
+  cst_marital_status
 FROM silver.crm_cust_info;
 
 -- ============================================
